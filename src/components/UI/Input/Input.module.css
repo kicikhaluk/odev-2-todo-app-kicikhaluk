@@ -1,0 +1,21 @@
+.formElement {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.formElement input {
+  width: 90%;
+  margin: 0 0 0 auto;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border: 0;
+}
+.formElement input:focus {
+  outline: 0;
+}
+
+.alignSelf {
+  align-self: center;
+}

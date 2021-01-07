@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import styles from './Layout.module.css';
 
-function Layout() {
+function Layout({ children }) {
   return (
-    <div>
-
+    <div className={styles.layout}>
+      <header>
+        <h1 className={styles.title}>todos</h1>
+      </header>
+      <main>
+        {children}
+      </main>
     </div>
   )
 }

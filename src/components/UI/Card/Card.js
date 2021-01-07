@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from './Card.module.css';
 
-const Card = ({ name }) => {
+const Card = ({ children }) => {
   return (
-    <>
-      <h1>{name}</h1>
-    </>
+    <div className={styles.card}>
+      {children}
+    </div>
   );
 };
 
