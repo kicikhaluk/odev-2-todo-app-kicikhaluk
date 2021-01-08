@@ -1,0 +1,12 @@
+.formElement {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
